@@ -1,0 +1,43 @@
+@media (max-width: 600px) {
+  header {
+    position: relative;
+  }
+  header nav {
+    display: none;
+    position: absolute;
+    top: 70px;
+    background-color: #15304c;
+    width: 100%;
+  }
+  header nav li {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .menu-icon {
+    display: block;
+    color: white;
+    font-size: 23px;
+  }
+  .welcome {
+    object-fit: none;
+    background-position: center right;
+  }
+  .o-nas-wrapper {
+    padding: 120px 0;
+    justify-content: center;
+    width: 100%;
+  }
+  .o-nas-text {
+    width: 90%;
+    margin: auto;
+    margin-top: 0px;
+  }
+}
+
+@media (min-width: 600px) {
+  header nav {
+    display: block !important;
+  }
+}

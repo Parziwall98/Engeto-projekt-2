@@ -1,0 +1,38 @@
+@media (max-width: 600px) {
+  header {
+    position: relative;
+  }
+  header nav {
+    display: none;
+    position: absolute;
+    top: 70px;
+    background-color: #15304c;
+    width: 100%;
+  }
+  header nav li {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .menu-icon {
+    display: block;
+    color: white;
+    font-size: 23px;
+  }
+  .welcome {
+    object-fit: none;
+    background-position: center right;
+  }
+  .kontakt-container {
+    padding: 120px;
+    width: 90%;
+    margin-right: auto;
+  }
+}
+
+@media (min-width: 600px) {
+  header nav {
+    display: block !important;
+  }
+}

@@ -1,0 +1,49 @@
+@media (max-width: 600px) {
+  header {
+    position: fixed;
+  }
+  header nav {
+    display: none;
+    position: absolute;
+    top: 70px;
+    background-color: #15304c;
+    width: 100%;
+  }
+  header nav li {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .menu-icon {
+    display: block;
+    color: white;
+    font-size: 23px;
+  }
+  .film-photo:hover {
+    transform: none;
+  }
+}
+
+@media (min-width: 600px) {
+  header nav {
+    display: block !important;
+  }
+}
+
+@media (max-width: 930px) {
+  .welcome {
+    object-fit: none;
+    background-position: center right;
+  }
+  .filmy-wrapper {
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    gap: 30px;
+    width: 100%;
+  }
+  .film-photo {
+    width: 90%;
+  }
+}

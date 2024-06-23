@@ -1,0 +1,101 @@
+/* General */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Header */
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #15304c;
+  height: 70px;
+  font-family: "Star Jedi", Arial, sans-serif;
+  font-style: italic;
+  font-size: 15px;
+}
+
+.logo {
+  flex-grow: 1;
+}
+
+.logo img {
+  width: 150px;
+  margin-left: 20px;
+  padding: 10px;
+}
+/* Navigace */
+nav {
+  margin-right: 30px;
+}
+
+nav li {
+  display: inline-block;
+  list-style: none;
+  margin-right: 20px;
+}
+
+nav li a {
+  color: white;
+}
+
+nav ul li a:hover {
+  color: yellow;
+}
+
+.menu-icon {
+  display: none;
+  margin-right: 30px;
+}
+
+/* Welcome */
+
+.welcome {
+  background: url("./img/background.jpg");
+  min-height: calc(100vh - 70px);
+  background-size: cover;
+  object-fit: contain;
+  background-position: center top;
+}
+.o-nas-wrapper {
+  margin: auto;
+  margin-right: 30px;
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+}
+.o-nas-text {
+  margin-top: 75px;
+  color: white;
+  font-size: 25px;
+  text-align: center;
+  font-family: "Roboto", Arial, sans-serif;
+}
+.clenove {
+  margin: auto;
+}
+.clenove-container {
+  padding-top: 50px;
+}
+.clen-1-photo {
+  object-position: top;
+  height: 150px;
+  width: 150px;
+  border-radius: 10%;
+}
+.clen-1-photo-text {
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  font-family: "Roboto", Arial, sans-serif;
+}
+
+h2 {
+  margin-bottom: 50px;
+}
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
